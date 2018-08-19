@@ -16,7 +16,7 @@ public:
     virtual void Greet() = 0;
 }
 
-class HelloWorldGreeter : IGreeter
+class HelloWorldGreeter : public IGreeter
 {
 public:
     void Greet() override
